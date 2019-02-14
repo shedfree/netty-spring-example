@@ -28,7 +28,7 @@ pipeline {
             steps {
                 echo "部署中..."
                 // 请在这里放置收集单元测试报告的调用过程，例如:
-                sh 'mvn spring-boot:run' // Maven tomcat7 插件示例：
+                // sh 'mvn spring-boot:run' // Maven tomcat7 插件示例：
                 // sh './deploy.sh' // 自研部署脚本
                 echo "部署完成"
             }
